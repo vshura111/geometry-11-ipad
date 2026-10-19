@@ -1,0 +1,14 @@
+{
+  "id": "./",
+  "name": "Геометрія 11 — тренажер",
+  "short_name": "Геометрія 11",
+  "description": "Вивчай геометричні формули, розв'язуй задачі й перевіряй свої знання",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f8fc",
+  "theme_color": "#f8f8fc",
+  "lang": "uk",
+  "orientation": "any",
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
