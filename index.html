@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f8f8fc">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Геометрія 11">
+  <meta name="description" content="Формули з геометрії: пояснення, картки, задачі та контрольні. Працює офлайн.">
+  <meta name="color-scheme" content="light">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Геометрія 11 — навчайся самостійно</title>
+</head>
+<body>
+  <div class="app" id="app">
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="Геометрія 11 — головна">
+        <div class="brand-icon"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 6 35 33H5Z" fill="none" stroke="white" stroke-width="2.6" stroke-linejoin="round"/><path d="M20 6v27" stroke="white" stroke-width="1.9" stroke-dasharray="3.5 3.5"/></svg></div>
+        <div><b>Геометрія</b><span>11 клас · свій темп</span></div>
+      </a>
+      <nav class="side-nav" aria-label="Основне меню">
+        <button type="button" data-route="home"><span class="nav-emoji">⌂</span> Головна</button>
+        <button type="button" data-route="topics"><span class="nav-emoji">▱</span> Теми й формули</button>
+        <button type="button" data-route="practice"><span class="nav-emoji">✎</span> Тренажер</button>
+        <button type="button" data-route="cards"><span class="nav-emoji">▤</span> Картки</button>
+        <button type="button" data-route="exam"><span class="nav-emoji">◎</span> Контрольна</button>
+        <button type="button" data-route="progress"><span class="nav-emoji">▥</span> Прогрес</button>
+      </nav>
+      <div class="sidebar-footer"><span class="tiny-circle"></span><span>Працює без інтернету після першого завантаження</span></div>
+    </aside>
+    <div class="main-wrap">
+      <header class="topbar"><div class="top-brand">◭ <b>Геометрія 11</b></div><div id="topStatus" class="top-status">У твоєму темпі</div></header>
+      <main id="main" tabindex="-1" aria-live="polite"></main>
+    </div>
+    <nav class="bottom-nav" aria-label="Меню для планшета й телефона">
+      <button type="button" data-route="home"><span>⌂</span><small>Головна</small></button>
+      <button type="button" data-route="topics"><span>▱</span><small>Теми</small></button>
+      <button type="button" data-route="practice"><span>✎</span><small>Практика</small></button>
+      <button type="button" data-route="cards"><span>▤</span><small>Картки</small></button>
+      <button type="button" data-route="progress"><span>▥</span><small>Прогрес</small></button>
+    </nav>
+  </div>
+  <script src="./app.js" defer></script>
+</body>
+</html>
